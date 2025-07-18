@@ -1,0 +1,92 @@
+.wrap body {
+    font-family: Arial, sans-serif;
+}
+
+.wrap .container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.wrap h1 {
+    color: #6CD04E ;
+    font-size: 36px;
+}
+
+.wrap h2 {
+    font-size: 24px;
+    color: #6CD04E ;
+    margin-bottom: 20px;
+}
+
+.wrap label {
+    font-size: 14px;
+    color: #333;
+}
+
+.wrap p {
+    margin-bottom: 20px;
+}
+
+.wrap input[type="text"],
+.wrap input[type="password"],
+.wrap select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.wrap input[type="submit"] {
+    background-color: #6CD04E ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wrap input[type="submit"]:hover {
+    background-color: #6CD04E ;
+}
+
+.wrap a {
+    color: #6CD04E ;
+    text-decoration: none;
+}
+
+.wrap a:hover {
+    text-decoration: underline;
+}
+
+/* Save Changes button styles */
+.wrap .button-primary {
+    background-color: #6CD04E ;
+    border: 2px solid #62a02c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.wrap .button-primary:hover,
+.wrap .button-primary:focus {
+    background-color: #62a02c;
+    border-color: #4d7e25;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transform: translateY(2px);
+}
+
+.wrap .button-primary:active {
+    background-color: #4d7e25;
+    border-color: #3c5e1d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+}

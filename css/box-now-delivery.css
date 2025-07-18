@@ -1,0 +1,68 @@
+#box_now_delivery_button {
+    border-radius: 6px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    margin-top: 6px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#box_now_delivery_button:hover {
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+#box_now_selected_locker_details {
+	padding: 8px;
+	font-size: 15px;
+	border: 2px solid #6CD04E ;
+	border-radius: 6px;
+	margin-top: 13px;
+    width: 83%;
+    background-color: #f0ffeb;
+    overflow: auto;
+    max-height: 370px;
+}
+
+/* Print Voucher button in WooCommerce order page */
+.print-voucher-button {
+    background-color: #6CD04E ;
+    border: 2px solid #62a02c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.print-voucher-button:hover {
+    background-color: #62a02c;
+    border-color: #4d7e25;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transform: translateY(2px);
+}
+
+.print-voucher-button:active {
+    background-color: #4d7e25;
+    border-color: #3c5e1d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+}
+
+.box-now-link {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #6CD04E ;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.box-now-link:hover {
+    background-color: #62a02c;
+    color: #ffffff;
+}
